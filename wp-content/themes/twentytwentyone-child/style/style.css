@@ -1,0 +1,134 @@
+#wpForm {
+	display: flex;
+	flex-direction: column;
+	width: 770px;
+	height: 470px;
+	background: #E5E5E5;
+	border-radius: 6px;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+}  
+#backBtn {
+	display: block;
+}
+.tab {
+	display: none;
+}
+.breadcrumbs ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #ffffff;
+	width: 503px;
+	padding: 0 18px;
+	border-radius: 6px;
+	margin-top: 43px;
+	margin-left: 80px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+}
+
+.breadcrumb-item {
+        font-family: "Inter", sans-serif;
+	list-style: none;
+	color: #6B7280;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 130%;
+	padding: 12px 0;
+	height: 44px;
+	margin: 0 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	content: '';
+	background: url("../icons/Right.svg") no-repeat;
+	padding: 0;
+	margin: -15px 10px;
+	width: 40px;
+	height: 44px;
+}
+.breadcrumb-item.active {
+	color: blue;
+}
+.tab h1 {	
+        font-family: "Inter", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 29px;
+	margin-left: 80px;
+}
+.form-tab {
+	width: 501px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 106px;
+	justify-content: center;
+}
+.form-tab p {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 15px;
+	align-items: center;
+	color: #4B5563;
+	margin-bottom: 19px;
+}
+.form-tab input {
+	margin-left: 29px;
+	width: 370px;
+	height: 44px;
+	border: none;
+	border-radius: 6px;
+	color: #4B5563;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+}
+.form-tab input:focus {
+        outline: none;
+
+}
+.buttons {
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 80px;
+}
+.buttons button {
+        font-family: "Inter", sans-serif;
+	border: none;
+        outline:none;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 130%;
+	border-radius: 6px;
+	padding: 6px 12px;
+}
+#continueBtn {
+	background: #4F46E5;
+	color: #fff;
+}
+#backBtn {
+	color: #4F46E5;
+	margin-left: 10px;
+	background: #F4F4F4;
+}
+#backBtn span:before {
+	content: "\2190";
+	font-size: 20px;
+	position: relative;
+  	top: -2px;
+}
+#price {
+	font-size: 144px;
+	font-weight: 600;
+	margin-left: 80px;
+	line-height: 100%;
+
+}
+#errSendDone, #okDone {
+	margin-left: 80px;
+	margin-top: 35px;
+}
+			
